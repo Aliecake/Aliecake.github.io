@@ -1,0 +1,148 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #ff6e5c;
+  }
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: repeat(5, 1fr);
+    background: #000;
+}
+.card-container {
+    text-align: center;
+    font-size: 0px;
+}
+.card {
+    display: inline-block;
+    vertical-align: top;
+    color: #aaa;
+    font-size: 16px;
+    max-width: 27%;
+    height: 60vh;
+    padding: 25px;
+    margin: 9px;
+}
+.card-title {
+    color: #00dbdb;
+    font-weight: 900;
+    margin-top: 29px;
+    margin-left: 12px;
+    font-size: 18px;
+    float: left;
+}
+.description {
+    text-align: center;
+    color: #013e4c;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 100px;
+}
+.colorBlock {
+    color: #00dbdb;
+}
+.parallax1 {
+    background-image: url('images/elm-park.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.parallax2 {
+    background-image: url('images/union-station-worcester.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.parallax3 {
+    background-image: url('images/WorcesterMA-Skyline.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    width:100%;
+    height:70px;
+    color: #00dbdb;
+ }
+ .footer p {
+    text-align: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-bottom: 12px;
+    position:absolute;
+    width:100%;
+ }
+
+i {
+    padding: 2px;
+}
+img {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 30px;
+}
+.intro {
+    font-size: 25px;
+    padding-top: 20vh;
+    color: #aaa;
+    height: 100vh;
+    text-align: center;
+}
+.job-title {
+    float: left;
+    padding-left: 42px;
+    padding-top: 8px;
+}
+.name {
+    padding-right: 15px;
+    padding-top: 8px;
+    float: right;
+}
+.main {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    height: auto;
+}
+@media only screen and (min-width: 50px) and (max-width: 490px) {
+    .header {
+        height: 90px;
+    }
+    .main {
+        margin-top: 100px;
+    }
+    .name {
+        float: none;
+        padding-top: 0px;
+        padding-left: 48px;
+    }
+}
+@media only screen and (max-width: 795px){
+    .card {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        max-width: 90%;
+    }
+}

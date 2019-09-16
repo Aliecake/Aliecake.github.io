@@ -19,6 +19,7 @@ body {
     grid-template-columns: repeat(5, 1fr);
     background: #000;
 }
+
 .card-container {
     text-align: center;
     font-size: 0px;
@@ -49,6 +50,8 @@ body {
     margin-top: 100px;
 }
 .colorBlock {
+    font-weight: 900;
+    font-size: 30px;
     color: #00dbdb;
 }
 .parallax1 {

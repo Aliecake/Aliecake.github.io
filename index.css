@@ -56,7 +56,7 @@ body {
 }
 .parallax1 {
     background-image: url('images/elm-park.jpg');
-    height: 40vh;
+    height: 55vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -64,7 +64,7 @@ body {
 }
 .parallax2 {
     background-image: url('images/union-station-worcester.jpg');
-    height: 40vh;
+    height: 55vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -72,7 +72,7 @@ body {
 }
 .parallax3 {
     background-image: url('images/WorcesterMA-Skyline.jpg');
-    height: 40vh;
+    height: 55vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
